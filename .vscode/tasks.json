@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check Keil and board tools",
+      "type": "process",
+      "command": "check-tools.bat",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build firmware HEX",
+      "type": "process",
+      "command": "build.bat",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Keil uVision project",
+      "type": "process",
+      "command": "open-keil.bat",
+      "problemMatcher": []
+    },
+    {
+      "label": "Open STC-ISP",
+      "type": "process",
+      "command": "flash.bat",
+      "problemMatcher": []
+    }
+  ]
+}
