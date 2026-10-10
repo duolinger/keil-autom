@@ -1,0 +1,12 @@
+*.ABS
+*.LST
+*.M51
+*.OBJ
+*.log
+*.build_log.htm
+*.lnp
+*.uvopt
+*.uvoptx
+*.uvgui.*
+/QX-MINI51-Time-Marquee
+/.vscode/*.log
